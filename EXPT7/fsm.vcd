@@ -1,0 +1,242 @@
+$date
+	Wed May 19 16:41:53 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_fsm $end
+$var wire 1 ! out $end
+$var reg 1 " X $end
+$var reg 1 # clk $end
+$var reg 1 $ rstn $end
+$scope module counter $end
+$var wire 1 " X $end
+$var wire 1 ! Y $end
+$var wire 1 # clk $end
+$var wire 1 % d0 $end
+$var wire 1 & d1 $end
+$var wire 1 ' d2 $end
+$var wire 1 $ rst $end
+$var wire 1 ( qn2 $end
+$var wire 1 ) qn1 $end
+$var wire 1 * qn0 $end
+$var wire 1 + q2 $end
+$var wire 1 , q1 $end
+$var wire 1 - q0 $end
+$scope module df0 $end
+$var wire 1 % D $end
+$var wire 1 # clk $end
+$var wire 1 . iniv $end
+$var wire 1 $ rst $end
+$var wire 1 * Qbar $end
+$var reg 1 - Q $end
+$upscope $end
+$scope module df1 $end
+$var wire 1 & D $end
+$var wire 1 # clk $end
+$var wire 1 / iniv $end
+$var wire 1 $ rst $end
+$var wire 1 ) Qbar $end
+$var reg 1 , Q $end
+$upscope $end
+$scope module df2 $end
+$var wire 1 ' D $end
+$var wire 1 # clk $end
+$var wire 1 0 iniv $end
+$var wire 1 $ rst $end
+$var wire 1 ( Qbar $end
+$var reg 1 + Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+0/
+0.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+0$
+0#
+1"
+x!
+$end
+#5
+1%
+0&
+0'
+0!
+1*
+0-
+1)
+0,
+1(
+0+
+1$
+1#
+#10
+0#
+#15
+0%
+1&
+0*
+1-
+1#
+#20
+0#
+#25
+1%
+1!
+1*
+0-
+0)
+1,
+1#
+0"
+#30
+0#
+#35
+0%
+0&
+1'
+0!
+0*
+1-
+1#
+#40
+0#
+#45
+1%
+1*
+0-
+1)
+0,
+0(
+1+
+1#
+#50
+0#
+1"
+#55
+0'
+0%
+0*
+1-
+1#
+#60
+0#
+#65
+1%
+1*
+0-
+1(
+0+
+1#
+#70
+0#
+#75
+1&
+0*
+1-
+0%
+1#
+0"
+#80
+0#
+#85
+1%
+1!
+1*
+0-
+0)
+1,
+1#
+#90
+0#
+#95
+0%
+0&
+1'
+0!
+0*
+1-
+1#
+#100
+0#
+1"
+#105
+1%
+1*
+0-
+1)
+0,
+0(
+1+
+1#
+#110
+0#
+#115
+0'
+0%
+0*
+1-
+1#
+#120
+0#
+#125
+1*
+0-
+1(
+0+
+1#
+0"
+#130
+0#
+#135
+1#
+#140
+0#
+#145
+1#
+#150
+1%
+0#
+1"
+#155
+0%
+1&
+0*
+1-
+1#
+#160
+0#
+#165
+1%
+1!
+1*
+0-
+0)
+1,
+1#
+#170
+0#
+#175
+0%
+0&
+1'
+0!
+0*
+1-
+1#
+0"

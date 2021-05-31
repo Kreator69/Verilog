@@ -1,0 +1,16 @@
+module tb_gateckt;
+	reg A,B,C,D,E,F; wire Y;
+	gateckt DUT(A,B,C,D,E,F,Y);
+
+	initial
+		begin
+			$dumpfile("gateckt.vcd");
+			$dumpvars(0, tb_gateckt);
+			$monitor($time,"  A=%b, B=%b, C=%b, D=%b, E=%b, F=%b, Y=%b", A,B,C,D,E,F,Y);
+			#5 A=1;B=0;C=0;D=1;E=0;F=0;
+			#5 A=0;B=0;C=1;D=1;E=0;F=0;
+			#5 A=0;C=0;
+			#5 F=1;
+			#5 $finish;
+		end
+endmodule
